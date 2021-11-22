@@ -2,12 +2,13 @@ package com.github.reactnativecommunity.location;
 
 import android.location.Location;
 import android.os.Build;
-import android.support.annotation.Nullable;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.RCTNativeAppEventEmitter;
+
+import javax.annotation.Nullable;
 
 public class Utils {
     public static void emitWarning(ReactApplicationContext context, String message, String type) {
